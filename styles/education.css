@@ -1,0 +1,46 @@
+.education{
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  border: 1px solid rgb(196, 191, 191);
+  border-top-width: 0;
+  padding-top: 20px;
+}
+
+.education-left-nav{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.education-details{
+  display: flex;
+  align-items: center;
+}
+
+.education-icon{
+  width: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.education-item{
+  padding-bottom: 50px;
+  padding-right: 30px;
+}
+
+.university,
+.high-school{
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  padding-bottom: 30px;
+}
+
+.university-year,
+.high-school-year{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+
+

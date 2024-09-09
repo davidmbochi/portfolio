@@ -1,0 +1,65 @@
+.skills {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  border: 1px solid rgb(196, 191, 191);
+  border-top-width: 0;
+  padding-top: 20px;
+}
+
+.tech-skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  
+}
+
+.tech-skills-item{
+  display: flex;
+  align-items: center;
+}
+
+.tech-skills-icon {
+  width: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.skills-years {
+  padding-bottom: 30px;
+  max-width: 600px;
+}
+
+.skills-years-header {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  border-bottom: 1px solid rgb(196, 191, 191);
+  padding-bottom: 8px;
+}
+
+.skills-years-text {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  border-bottom: 1px solid rgb(196, 191, 191);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  align-items: center;
+}
+
+.additional-skills{
+  padding-bottom: 20px;
+}
+
+.additional-skills-list{
+  display: flex;
+  padding-bottom: 20px;
+  column-gap: 5px;
+  row-gap: 15px;
+  flex-wrap: wrap;
+}
+
+.skill-list-item{
+  border: 1px solid rgb(196, 191, 191);
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 15px;
+}

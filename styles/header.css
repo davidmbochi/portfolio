@@ -1,0 +1,77 @@
+
+
+.about-me {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  border: 1px solid rgb(196, 191, 191);
+  padding-top: 10px;
+  padding-bottom: 80px;
+}
+
+.social a{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.profile{
+  display: grid;
+  justify-content: center;
+}
+
+.profile-picture {
+  padding-top: 10px;
+  width: 130px;
+}
+
+.profile-picture img {
+  border-radius: 65px;
+}
+
+.my-info{
+  max-width: 600px;
+}
+
+.info-header {
+  padding-top: 15px;
+  margin-bottom: 20px;
+}
+
+.name {
+  margin-bottom: 8px;
+  font-weight: bold;
+  font-size: 19px;
+}
+
+
+.info-body {
+  display: grid;
+  grid-template-columns: 1fr 300px 1fr;
+  margin-bottom: 20px;
+}
+
+.country,
+.overlap,
+.experience {
+  display: flex;
+}
+
+.country p,
+.overlap p,
+.experience p {
+  margin-top: 7px;
+  margin-left: 5px;
+}
+
+.country-icon,
+.overlap-icon,
+.experience-icon {
+  width: 30px;
+}
+
+/* .info-footer {
+  max-width: 550px;
+} */
+
+.info-footer p {
+  line-height: 24px;
+}
