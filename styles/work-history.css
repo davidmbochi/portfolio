@@ -97,6 +97,10 @@
   padding-top: 20px;
 }
 
+.work-history-item-initial .work-line{
+  padding-bottom: 420px;
+}
+
 .work-history-item-two .work-line {
   padding-bottom: 350px;
 }
